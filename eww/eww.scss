@@ -1,0 +1,80 @@
+@import "gruvbox.scss";
+
+* {
+  all: unset; //Unsets everything so you can style everything from scratch
+}
+
+.bar {
+  background-color: $background;
+  color: $foreground;
+  font-size: 1em;
+  font-family: JetBrains Mono;
+}
+
+.sidestuff slider {
+  all: unset;
+  color: #ffd5cd;
+}
+
+
+.metric scale trough highlight {
+  all: unset;
+  background-color: $green;
+  color: $black;
+  border-radius: 10px;
+}
+
+.metric scale.volume trough highlight {
+  all: unset;
+  background-color: $lightmagenta;
+  color: $black;
+  border-radius: 10px;
+}
+
+.metric scale trough {
+  all: unset;
+  background-color: $background-alt;
+  border-radius: 50px;
+  min-height: 5px;
+  min-width: 100px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.disk, .ram {
+  color: $green;
+  padding: 0 0.5em;
+}
+
+.workspaces {
+  background-color: $background-alt;
+  font-family: JetBrains Mono;
+  font-size: 1em;
+ }
+
+.ws-button {
+  padding: 5px;
+  color: #a89984;
+}
+
+.ws-button:hover {
+  background-color: $green;
+  color: $black;
+}
+
+.ws-button-mine {
+  color: $black;
+  background-color: $green;
+}
+.ws-button-visible {
+  color: $black;
+  background-color: #4e4e4e;
+}
+.ws-button-urgent {
+  color: $black;
+  background-color: $urgent;
+}
+.ws-button-busy {
+  color: #D35D6E;
+}
+
